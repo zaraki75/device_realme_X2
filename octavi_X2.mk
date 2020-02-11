@@ -6,6 +6,7 @@
 
 # Inherit some common Octavi stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+BUILD_TYPE := OFFICIAL
 
 $(call inherit-product, device/realme/X2/device.mk)
 

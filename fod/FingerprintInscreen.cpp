@@ -31,7 +31,7 @@
 #define DOZE_STATUS "/proc/touchpanel/DOZE_STATUS"
 #define X_POS 442
 #define Y_POS 1969
-#define FP_SIZE 196
+#define FP_SIZE 190
 #define FP_BEGIN 1
 #define FP_ENDIT 0
 
