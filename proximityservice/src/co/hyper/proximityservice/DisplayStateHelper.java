@@ -18,7 +18,7 @@
  * signifies that the system has held a proximity wakelock indicating
  * touchpanel proximity has suspended and no events are recieved from it thus
  * its now time to trigger the infrared proximity and take events from it.
- * 
+ *
  */
 
  package co.hyper.proximityservice;
@@ -31,11 +31,11 @@ import android.util.Log;
 
 public class DisplayStateHelper implements DisplayListener {
      private static final String TAG = "DisplayStateListener";
-     private static final boolean DEBUG = true;
+     private static final boolean DEBUG = false;
      // Do not let the sensor register for non call events such as doze
      private static final String CALL_ST = "/proc/touchpanel/incall_status";
 
-     private Context mcontext;
+    private Context mcontext;
      private InfraredSensor mFakeProximity;
 
      public DisplayStateHelper(Context context){
@@ -48,12 +48,12 @@ public class DisplayStateHelper implements DisplayListener {
      public void onDisplayAdded(int displayId) {
         /* Empty */
      }
-   
+
      @Override
      public void onDisplayRemoved(int displayId) {
         /* Empty "*/
      }
-     
+
      @Override
      public void onDisplayChanged(int displayId) {
        if (displayId == Display.DEFAULT_DISPLAY && isDefaultDisplayOff(mcontext)) {
