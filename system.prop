@@ -60,6 +60,9 @@ dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.dex2oat-threads=4
 dalvik.vm.image-dex2oat-threads=4
 
+#Display
+ro.sf.lcd_density=400
+
 # Display post-processing
 debug.sf.latch_unsignaled=1
 debug.sf.hw=1
