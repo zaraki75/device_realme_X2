@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, vendor/realme/X2/X2-vendor.mk)
 
 # Prebuilts Path
-PREBUILT_DVC_PATH := device/realme/X2-prebuilts
+PREBUILT_DVC_PATH := device/realme/X2/prebuilts
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29

@@ -6,7 +6,7 @@
 
 BOARD_VENDOR := realme
 DEVICE_PATH := device/realme/X2
-PREBUILT_DEVICE_PATH := device/realme/X2-prebuilts
+PREBUILT_DEVICE_PATH := device/realme/X2/prebuilts
 
 #Broken Rules
 BUILD_BROKEN_DUP_RULES := true
