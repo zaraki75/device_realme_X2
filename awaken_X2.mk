@@ -6,7 +6,8 @@
 
 # Inherit some common Octavi stuff.
 $(call inherit-product, vendor/awaken/config/common.mk)
-BUILD_TYPE := OFFICIAL
+
+AWAKEN_BUILD_TYPE := OFFICIAL
 
 $(call inherit-product, device/realme/X2/device.mk)
 
