@@ -6,6 +6,7 @@
 
 # Inherit some common Octavi stuff.
 $(call inherit-product, vendor/awaken/config/common.mk)
+$(call inherit-product, vendor/awaken/config/gsm.mk)
 
 AWAKEN_BUILD_TYPE := OFFICIAL
 

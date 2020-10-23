@@ -122,10 +122,6 @@ PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
 
-# Apn Config
-PRODUCT_COPY_FILES += \
-    $(PREBUILT_DVC_PATH)/Configs/apns-conf.xml:system/etc/apns-conf.xml
-
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:/system/usr/keylayout/gpio-keys.kl
